@@ -1,0 +1,76 @@
+.edit-treatment-container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-treatment-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .edit-treatment-examination-questionnaire {
+    display: flex;
+    flex-direction: column;
+    & div {
+      display: flex;
+      flex-direction: column;
+    }
+    & textarea {
+      width: 90%;
+      resize: vertical;
+      border-radius: 4px;
+      padding: 10px;
+      margin-top: 4px;
+    }
+  }
+  
+  .edit-treatment-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .edit-treatment-form > div {
+    flex: 1 1 100%;
+  }
+  
+  .edit-treatment-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .edit-treatment-form .MuiFormControl-root,
+  .edit-treatment-form .MuiTextField-root,
+  .edit-treatment-form .MuiFormControlLabel-root,
+  .edit-treatment-form .MuiLocalizationProvider-root {
+    margin-bottom: 20px;
+  }
+  
+  .edit-treatment-form .MuiOutlinedInput-root,
+  .edit-treatment-form .MuiSelect-root {
+    width: 100%;
+  }
+  
+  .edit-treatment-form .MuiOutlinedInput-input {
+    padding: 10px 14px;
+  }
+  
+  .edit-treatment-form .MuiFormControlLabel-label {
+    font-size: 14px;
+  }
+  
+  .edit-treatment-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

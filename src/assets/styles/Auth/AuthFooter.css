@@ -1,0 +1,13 @@
+.auth-footer-container {
+  grid-area: 3 / 1 / 4 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  bottom: 0;
+  font-weight: 100;
+  & a,
+  a:hover {
+    color: #426cff;
+  }
+}

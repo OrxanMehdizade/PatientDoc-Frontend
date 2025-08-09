@@ -1,0 +1,22 @@
+.auth-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  & h2 {
+    margin: 0;
+  }
+  & a {
+    color: #426cff;
+    text-decoration: none;
+  }
+}
+
+.auth-login-input {
+  width: 80%;
+  margin-top: 20px;
+  & label{
+    color: #495057;
+  }
+}

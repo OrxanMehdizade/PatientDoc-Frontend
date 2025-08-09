@@ -1,0 +1,26 @@
+.home-card-img {
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 10px;
+  color: #426cff;
+  background-color: white;
+}
+
+.home-new-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px 20px;
+  width: 15vw;
+  height: 8rem;
+  border-radius: 15px;
+  background-color: #426cff;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .home-new-card {
+    width: 80vw;
+  }
+}

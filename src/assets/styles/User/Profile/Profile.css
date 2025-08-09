@@ -1,0 +1,61 @@
+.user-profile-container,
+.user-profile-info,
+.user-profile-appointment-options {
+  display: flex;
+}
+.user-profile-info,
+.user-profile-appointment-options {
+  border-bottom: 1px solid #dbdcdd;
+}
+
+.user-profile-container {
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.user-profile-info {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.user-profile-appointment-options {
+  padding: 10px 10px 50px;
+  gap: 3rem;
+}
+
+.appointment-duration-input {
+  & .MuiInputBase-root {
+    height: 40px;
+  }
+}
+
+.user-profile-treatment-options {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  & .border-right {
+    border-right: 1px solid #dbdcdd;
+  }
+  & .border-bottom {
+    border-bottom: 1px solid #dbdcdd;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-profile-info,
+  .user-profile-treatment-options {
+    display: flex;
+    flex-direction: column;
+    & .border-right {
+      border-right: 0;
+    }
+    & .border-bottom {
+      border-bottom: 0;
+    }
+  }
+}

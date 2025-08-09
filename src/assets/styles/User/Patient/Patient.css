@@ -1,0 +1,40 @@
+.user-patient-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px 20px 20px;
+  min-height: 65vh;
+}
+
+.user-patient-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-patient-header h2 {
+  margin: 0;
+}
+
+.user-patient-content {
+  flex: 1;
+}
+
+.user-patient-row:hover {
+  cursor: pointer;
+  background-color: #ecf0ff;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .user-patient-container {
+    min-height: 83vh;
+  }
+  .user-patient-content .deactive {
+    display: none;
+  }
+}

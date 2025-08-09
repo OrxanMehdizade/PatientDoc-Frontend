@@ -1,0 +1,44 @@
+.edit-profile-container {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-profile-container h2 {
+  margin-bottom: 20px;
+}
+
+.edit-profile-input-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.edit-profile-label-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-profile-change-password-btn {
+  margin: 1rem 0 !important;
+}
+
+.edit-profile-upload-photo-btn {
+  margin: 1rem 0 !important;
+}
+
+.edit-profile-save-btn {
+  width: 10vw;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .edit-profile-input-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+.show-treatment-container {
+  padding: 2px 20px 10px;
+  margin: 20px;
+}
+
+.show-treatment-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-treatment-patient-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-treatment-info-item {
+  margin-bottom: 16px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.show-treatment-info-item:last-child {
+  margin-right: 0;
+}
+
+.show-treatment-print-button {
+  align-self: flex-end;
+  margin-top: 20px;
+}

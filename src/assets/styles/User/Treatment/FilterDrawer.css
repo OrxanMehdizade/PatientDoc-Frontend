@@ -1,0 +1,10 @@
+.filter-drawer-modal {
+  width: 20vw;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .filter-drawer-modal {
+    width: 70vw;
+  }
+}

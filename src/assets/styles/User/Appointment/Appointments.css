@@ -1,0 +1,33 @@
+.user-appointment-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px 20px 20px;
+  min-height: 65vh;
+}
+
+.user-appointment-header {
+  display: flex;
+  justify-content: space-between;
+  & h2 {
+    margin: 0;
+  }
+}
+
+.user-appointment-content {
+  flex: 1;
+}
+
+.user-appointment-row:hover {
+  cursor: pointer;
+  background-color: #ecf0ff;
+}
+
+@media (max-width: 768px) {
+  .user-appointment-container {
+    min-height: 83vh;
+  }
+  .user-appointment-content .deactive {
+    display: none;
+  }
+}

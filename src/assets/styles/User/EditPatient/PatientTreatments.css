@@ -1,0 +1,10 @@
+.edit-patient-treatments {
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .user-treatment-content .deactive {
+    display: none;
+  }
+}

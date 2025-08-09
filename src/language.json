@@ -1,0 +1,847 @@
+{
+  "az": {
+    "header": {
+      "hello": "Salam",
+      "profile": "Profil",
+      "logout": "Çıxış"
+    },
+    "login": {
+      "welcome": "Xoş Gördük",
+      "loginPrompt": "Davam etmək üçün daxil olun.",
+      "password": "Şifrə",
+      "login": "Daxil ol",
+      "registerPrompt": "Hesabınız yoxdur?",
+      "registerLink": "Qeydiyyatdan keç",
+      "forgetPassword": "Şifrəni unutmusan?"
+    },
+    "phoneNumber": "Mobil Nömrə",
+    "register": {
+      "createAccount": "Hesab yarat",
+      "next": "Növbəti",
+      "haveAccount": "Hesabınız var?",
+      "loginLink": "Daxil ol"
+    },
+    "twoStepVerification": {
+      "verifyNumber": "Nömrəni təsdiq et",
+      "enterCode": "Nömrənizə göndərilən 4 qərəmli kodu yazın.",
+      "next": "Növbəti",
+      "resendCode": "Kodu yenilə",
+      "click": "klik",
+      "back": "Geri"
+    },
+    "completeRegistration": {
+      "accountInfo": "Hesab məlumatları",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "clinic": "Klinika",
+      "password": "Şifrə",
+      "confirmPassword": "Şifrəni Təsdiqlə",
+      "complete": "Bitdi",
+      "agreeTerms": "Qeydiyyatdan keçməklə, şərtlər və publik qaydalar ilə razılaşıram. Şərtlərlə razıyam."
+    },
+    "auth": "Pasientləriniz kağızlar üzərində deyil, bir klik qədər yaxın olsun!",
+    "forgetPassword": {
+      "resetPassword": "Şifrəni yenilə",
+      "next": "Növbəti",
+      "back": "Geri"
+    },
+    "addPatient": {
+      "personalInfo": "Şəxsi məlumatlar",
+      "name": "Ad",
+      "surname": "Soyad",
+      "fathersName": "Ata adı",
+      "phoneNumberNotAvailable": "Telefon nömrəsi mövcud deyil",
+      "birthday": "Doğum tarixi",
+      "gender": "Cins",
+      "select": "Seç",
+      "male": "Kişi",
+      "female": "Qadın",
+      "address": "Ünvan",
+      "email": "Email",
+      "insurance": "Sığorta",
+      "doctorReferral": "Həkim göndərişi",
+      "save": "Yadda saxla",
+      "makeAppointment": "Randevu təyin et"
+    },
+    "newCards": {
+      "newPatient": "Yeni Pasiyent",
+      "newTreatment": "Yeni Müalicə",
+      "newAppointment": "Yeni Randevu"
+    },
+    "generalStatistics": {
+      "header": "Ümumi statistika",
+      "appointments": "Randevular",
+      "treatments": "Müalicələr",
+      "patients": "Pasiyentlər"
+    },
+    "navbar": {
+      "home": "Ana Səhifə",
+      "patients": "Pasiyentlər",
+      "calendar": "Təqvim",
+      "treatments": "Müalicələr",
+      "appointments": "Randevular",
+      "statistics": "Statistika",
+      "profile": "Profil",
+      "logout": "Çıxış"
+    },
+    "statisticButtonGroup": {
+      "monthly": "Aylıq",
+      "allTime": "Bütün zamanlar"
+    },
+    "statisticGeneralStatistics": {
+      "header": "Ümumi statistika",
+      "appointments": "Randevular",
+      "treatments": "Müalicələr",
+      "patients": "Pasiyentlər"
+    },
+    "patientsComeFrom": {
+      "header": "Pasiyentlərin gəldiyi yerlər",
+      "socialMedia": "Sosial Media",
+      "doctorReferral": "Həkim göndərişi",
+      "clinicReferral": "Klinika göndərişi",
+      "personal": "Şövbə"
+    },
+    "patients": {
+      "header": "Pasiyentlər",
+      "newPatient": "Yeni Pasiyent",
+      "fullName": "Tam Adı",
+      "phone": "Telefon",
+      "gender": "Cins",
+      "age": "Yaş",
+      "action": "Əməliyyat",
+      "male": "Kişi",
+      "female": "Qadın"
+    },
+    "todayAppointments": {
+      "header": "Bugünkü Randevular",
+      "noData": "Bu günə randevu yoxdur",
+      "statuses": {
+        "finished": "Bitmiş",
+        "pending": "Gözlənilir",
+        "cancelled": "Ləğv Edilmiş"
+      }
+    },
+    "homeVideo": {
+      "video": "Video",
+      "description": "Dockpoint-dan istifadə təlimatları ilə tanış olun"
+    },
+    "patientSelect": "Pasiyentlər",
+    "addTreatment": {
+      "header": "Müalicə məlumatları",
+      "patientLabel": "Pasiyent",
+      "serviceLabel": "Xidmət və Prosedur",
+      "diagnosisLabel": "Diaqnoz",
+      "medicinesLabel": "Dərmanlar",
+      "examinationQuestionnaire": "Müayinə Anketi",
+      "documentsLabel": "Sənədlər",
+      "uploadDocument": "Sənəd Yüklə",
+      "saveButton": "Yadda saxla",
+      "nextCheckupButton": "Növbəti Yoxlama",
+      "sendButton": "Göndər",
+      "errors": {
+        "patientRequired": "Pasiyent tələb olunur",
+        "serviceRequired": "Xidmət və Prosedur tələb olunur",
+        "diagnosisRequired": "Ən azı bir diaqnoz tələb olunur",
+        "medicineRequired": "Ən azı bir dərman tələb olunur"
+      }
+    },
+    "diagnoseSelect": {
+      "placeholder": "Diaqnozlar",
+      "noOptionsMessage": {
+        "default": "Seçim yoxdur",
+        "withInput": "Seçim yoxdur, əlavə etmək üçün Enter düyməsini basın"
+      }
+    },
+    "serviceProcedureSelect": "Xidmət və ya prosedurlar",
+    "medicineSelect": "Dərmanlar",
+    "filterDrawer": {
+      "header": "Müalicələri Filtrlə",
+      "applyFilterButton": "Filtrlə",
+      "cancelButton": "Ləğv et"
+    },
+    "treatments": {
+      "header": "Müalicələr",
+      "newTreatmentButton": "+ Yeni Müalicə",
+      "tableHeaders": {
+        "patient": "Pasiyent",
+        "date": "Tarix",
+        "service": "Xidmət və Prosedur",
+        "diagnosis": "Diaqnoz",
+        "action": "Əməliyyat"
+      }
+    },
+    "showTreatment": {
+      "header": "Müalicə məlumatları",
+      "patientNameLabel": "Pasiyentin Adı",
+      "serviceLabel": "Xidmət",
+      "diagnosisLabel": "Diaqnoz",
+      "medicinesLabel": "Dərmanlar",
+      "treatmentFormsLabel": "Müalicə Formları",
+      "documentsLabel": "Sənədlər",
+      "documentLinkText": "sənəd",
+      "printButton": "Çap et"
+    },
+    "newAppointment": {
+      "title": "Yeni randevu",
+      "hospitalLabel": "Xəstəxana",
+      "dateLabel": "Tarix",
+      "timeLabel": "Vaxt",
+      "notSelected": "Seçilməyib",
+      "appealLabel": "Müraciət",
+      "socialMedia": "Sosial Media",
+      "doctorReferral": "Həkim göndərişi",
+      "clinicReferral": "Klinika göndərişi",
+      "personal": "Şövbə",
+      "addButton": "Əlavə et",
+      "errors": {
+        "patientRequired": "Pasiyent tələb olunur",
+        "serviceRequired": "Xidmət və Prosedur tələb olunur",
+        "hospitalRequired": "Xəstəxana tələb olunur",
+        "dateRequired": "Tarix tələb olunur",
+        "timeRequired": "Vaxt tələb olunur",
+        "appealRequired": "Müraciət tələb olunur"
+      }
+    },
+    "editAppointment": {
+      "title": "Randevu redaktə et",
+      "hospitalLabel": "Xəstəxana",
+      "timeLabel": "Vaxt",
+      "notSelected": "Seçilməyib",
+      "appealLabel": "Müraciət",
+      "socialMedia": "Sosial Media",
+      "doctorReferral": "Həkim göndərişi",
+      "clinicReferral": "Klinika göndərişi",
+      "personal": "Şövbə",
+      "status": "Status",
+      "finished": "Bitmiş",
+      "pending": "Gözlənilir",
+      "cancelled": "Ləğv Edilmiş",
+      "updateButton": "Redaktə et",
+      "deleteButton": "Sil"
+    },
+    "appointments": {
+      "header": "Randevular",
+      "addAppointmentButton": "+ Randevu əlavə et",
+      "fullName": "Tam Adı",
+      "phone": "Telefon",
+      "service": "Xidmət və Prosedur",
+      "date": "Tarix",
+      "time": "Vaxt",
+      "hospital": "Xəstəxana",
+      "status": "Status",
+      "action": "Əməliyyat",
+      "statuses": {
+        "pending": "Gözlənilir",
+        "finished": "Bitmiş",
+        "cancelled": "Ləğv Edilmiş"
+      }
+    },
+    "profileInfo": {
+      "hospitalLabel": "Xəstəxana",
+      "emailLabel": "Email",
+      "specializationLabel": "İxtisas",
+      "phoneLabel": "Telefon",
+      "workPhoneLabel": "İş Telefonu",
+      "empty": "boş"
+    },
+    "appointmentOptions": {
+      "smsSendingLabel": "Randevu SMS göndərilməsi",
+      "immediateOption": "Dərhal",
+      "oneDayBeforeOption": "Bir Gün Əvvəl",
+      "durationLabel": "Randevu Müddəti"
+    },
+    "treatmentOptions": {
+      "treatmentFormTitle": "Müalicə Formu",
+      "customServicesTitle": "Servislər",
+      "customDiagnosesTitle": "Diaqnozlar",
+      "medicinesTitle": "Dərmanlar"
+    },
+    "editProfile": {
+      "header": "Şəxsi məlumatlar",
+      "fullNameLabel": "Tam Adı",
+      "emailLabel": "Email",
+      "changePasswordButton": "Şifrəni dəyişdir",
+      "workPhoneLabel": "İş Telefonu",
+      "hospitalLabel": "Xəstəxana",
+      "specializationLabel": "İxtisas",
+      "uploadPhotoButton": "Profil Şəklini Yüklə",
+      "saveButton": "Yadda saxla"
+    },
+    "changePassword": {
+      "header": "Şifrəni dəyişdir",
+      "currentPasswordLabel": "Cari Şifrə",
+      "newPasswordLabel": "Yeni Şifrə",
+      "newPasswordConfirmLabel": "Yeni Şifrəni Təsdiq Et",
+      "saveButton": "Yadda saxla",
+      "successMessage": "Şifrə uğurla dəyişdirildi!",
+      "errorMessage": {
+        "passwordMismatch": "Yeni şifrə və təsdiq uyğun deyil!",
+        "passwordLength": "Şifrə ən azı 6 simvoldan ibarət olmalıdır!"
+      }
+    }
+  },
+  "en": {
+    "header": {
+      "hello": "Hello",
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "login": {
+      "welcome": "Welcome",
+      "loginPrompt": "Please log in to continue.",
+      "password": "Password",
+      "login": "Login",
+      "registerPrompt": "Don't have an account?",
+      "registerLink": "Register",
+      "forgetPassword": "Forget Password?"
+    },
+    "phoneNumber": "Mobile Number",
+    "register": {
+      "createAccount": "Create Account",
+      "next": "Next",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Login"
+    },
+    "twoStepVerification": {
+      "verifyNumber": "Verify Number",
+      "enterCode": "Enter the 4-digit code sent to your number.",
+      "next": "Next",
+      "resendCode": "Resend Code",
+      "click": "click",
+      "back": "Back"
+    },
+    "completeRegistration": {
+      "accountInfo": "Account Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "clinic": "Clinic",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "complete": "Complete",
+      "agreeTerms": "By registering, I agree to the terms and public offer. I agree to the terms."
+    },
+    "auth": "Have your patients close at hand, not on paper!",
+    "forgetPassword": {
+      "resetPassword": "Reset Password",
+      "next": "Next",
+      "back": "Back"
+    },
+    "addPatient": {
+      "personalInfo": "Personal information",
+      "name": "Name",
+      "surname": "Surname",
+      "fathersName": "Father's name",
+      "phoneNumberNotAvailable": "Phone number not available",
+      "birthday": "Birthday",
+      "gender": "Gender",
+      "select": "Select",
+      "male": "Male",
+      "female": "Female",
+      "address": "Address",
+      "email": "Email",
+      "insurance": "Insurance",
+      "doctorReferral": "Doctor referral",
+      "save": "Save",
+      "makeAppointment": "Make an appointment"
+    },
+    "newCards": {
+      "newPatient": "New Patient",
+      "newTreatment": "New Treatment",
+      "newAppointment": "New Appointment"
+    },
+    "generalStatistics": {
+      "header": "General statistics",
+      "appointments": "Appointments",
+      "treatments": "Treatments",
+      "patients": "Patients"
+    },
+    "navbar": {
+      "home": "Home",
+      "patients": "Patients",
+      "calendar": "Calendar",
+      "treatments": "Treatments",
+      "appointments": "Appointments",
+      "statistics": "Statistics",
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "statisticButtonGroup": {
+      "monthly": "Monthly",
+      "allTime": "All time"
+    },
+    "statisticGeneralStatistics": {
+      "header": "General statistics",
+      "appointments": "Appointments",
+      "treatments": "Treatments",
+      "patients": "Patients"
+    },
+    "patientsComeFrom": {
+      "header": "Patients come from",
+      "socialMedia": "Social Media",
+      "doctorReferral": "Doctor Referral",
+      "clinicReferral": "Clinic Referral",
+      "personal": "Personal"
+    },
+    "patients": {
+      "header": "Patients",
+      "newPatient": "New Patient",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "gender": "Gender",
+      "age": "Age",
+      "action": "Action",
+      "male": "Male",
+      "female": "Female"
+    },
+    "todayAppointments": {
+      "header": "Today's Appointments",
+      "noData": "No appointments for today",
+      "statuses": {
+        "finished": "Finished",
+        "pending": "Pending",
+        "cancelled": "Cancelled"
+      }
+    },
+    "homeVideo": {
+      "video": "Video",
+      "description": "Learn how to use Dockpoint"
+    },
+    "patientSelect": "Search patient",
+    "addTreatment": {
+      "header": "Treatment Information",
+      "patientLabel": "Patient",
+      "serviceLabel": "Service & Procedure",
+      "diagnosisLabel": "Diagnosis",
+      "medicinesLabel": "Medicines",
+      "examinationQuestionnaire": "Examination Questionnaire",
+      "documentsLabel": "Documents",
+      "uploadDocument": "Upload Document",
+      "saveButton": "Save",
+      "nextCheckupButton": "Next Checkup",
+      "sendButton": "Send",
+      "errors": {
+        "patientRequired": "Patient is required",
+        "serviceRequired": "Service & Procedure is required",
+        "diagnosisRequired": "At least one Diagnosis is required",
+        "medicineRequired": "At least one Medicine is required"
+      }
+    },
+    "diagnoseSelect": {
+      "placeholder": "Search diagnosis",
+      "noOptionsMessage": {
+        "default": "No options",
+        "withInput": "No options, press Enter to add"
+      }
+    },
+    "serviceProcedureSelect": "Search service or procedure",
+    "medicineSelect": "Search medicines",
+    "filterDrawer": {
+      "header": "Filter Treatments",
+      "applyFilterButton": "Apply Filter",
+      "cancelButton": "Cancel"
+    },
+    "treatments": {
+      "header": "Treatments",
+      "newTreatmentButton": "+ New Treatment",
+      "tableHeaders": {
+        "patient": "Patient",
+        "date": "Date",
+        "service": "Service & Procedure",
+        "diagnosis": "Diagnosis",
+        "action": "Action"
+      }
+    },
+    "showTreatment": {
+      "header": "Treatment Information",
+      "patientNameLabel": "Patient Name",
+      "serviceLabel": "Service",
+      "diagnosisLabel": "Diagnosis",
+      "medicinesLabel": "Medicines",
+      "treatmentFormsLabel": "Treatment Forms",
+      "documentsLabel": "Documents",
+      "documentLinkText": "document",
+      "printButton": "Print"
+    },
+    "newAppointment": {
+      "title": "New appointment",
+      "hospitalLabel": "Hospital",
+      "dateLabel": "Date",
+      "timeLabel": "Time",
+      "notSelected": "Not selected",
+      "appealLabel": "Appeal",
+      "socialMedia": "Social Media",
+      "doctorReferral": "Doctor Referral",
+      "clinicReferral": "Clinic Referral",
+      "personal": "Personal",
+      "addButton": "Add",
+      "errors": {
+        "patientRequired": "Patient is required",
+        "serviceRequired": "Service & Procedure is required",
+        "hospitalRequired": "Hospital required",
+        "dateRequired": "Date required",
+        "timeRequired": "Time required",
+        "appealRequired": "Appeal required"
+      }
+    },
+    "editAppointment": {
+      "title": "Edit Appointment",
+      "hospitalLabel": "Hospital",
+      "timeLabel": "Time",
+      "notSelected": "Not selected",
+      "appealLabel": "Appeal",
+      "socialMedia": "Social Media",
+      "doctorReferral": "Doctor Referral",
+      "clinicReferral": "Clinic Referral",
+      "personal": "Personal",
+      "status": "Status",
+      "finished": "Finished",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "updateButton": "Edit",
+      "deleteButton": "Delete"
+    },
+    "appointments": {
+      "header": "Appointments",
+      "addAppointmentButton": "+ Add Appointment",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "service": "Service & Procedure",
+      "date": "Date",
+      "time": "Time",
+      "hospital": "Hospital",
+      "status": "Status",
+      "action": "Action",
+      "statuses": {
+        "pending": "Pending",
+        "finished": "Finished",
+        "cancelled": "Cancelled"
+      }
+    },
+    "profileInfo": {
+      "hospitalLabel": "Hospital",
+      "emailLabel": "Email",
+      "specializationLabel": "Specialization",
+      "phoneLabel": "Phone",
+      "workPhoneLabel": "Work Phone",
+      "empty": "empty"
+    },
+    "appointmentOptions": {
+      "smsSendingLabel": "Appointment SMS sending",
+      "immediateOption": "Immediate",
+      "oneDayBeforeOption": "One Day Before",
+      "durationLabel": "Appointment Duration"
+    },
+    "treatmentOptions": {
+      "treatmentFormTitle": "Treatment Form",
+      "customServicesTitle": "Custom Services",
+      "customDiagnosesTitle": "Custom Diagnoses",
+      "medicinesTitle": "Medicines"
+    },
+    "editProfile": {
+      "header": "Personal Information",
+      "fullNameLabel": "Full Name",
+      "emailLabel": "Email",
+      "changePasswordButton": "Change Password",
+      "workPhoneLabel": "Work Phone",
+      "hospitalLabel": "Hospital",
+      "specializationLabel": "Specialization",
+      "uploadPhotoButton": "Upload Profile Photo",
+      "saveButton": "Save"
+    },
+    "changePassword": {
+      "header": "Change Password",
+      "currentPasswordLabel": "Current Password",
+      "newPasswordLabel": "New Password",
+      "newPasswordConfirmLabel": "New Password Confirm",
+      "saveButton": "Save",
+      "successMessage": "Password changed successfully!",
+      "errorMessage": {
+        "passwordMismatch": "New password and confirmation do not match!",
+        "passwordLength": "Password must be at least 6 characters long!"
+      }
+    }
+  },
+  "ru": {
+    "header": {
+      "hello": "Привет",
+      "profile": "Профиль",
+      "logout": "Выйти"
+    },
+    "login": {
+      "welcome": "Добро пожаловать",
+      "loginPrompt": "Пожалуйста, войдите, чтобы продолжить.",
+      "password": "Пароль",
+      "login": "Войти",
+      "registerPrompt": "Нет аккаунта?",
+      "registerLink": "Регистрация",
+      "forgetPassword": "Забыли пароль?"
+    },
+    "phoneNumber": "Мобильный номер",
+    "register": {
+      "createAccount": "Создать аккаунт",
+      "next": "Далее",
+      "haveAccount": "Уже есть аккаунт?",
+      "loginLink": "Войти"
+    },
+    "twoStepVerification": {
+      "verifyNumber": "Подтвердите номер",
+      "enterCode": "Введите 4-значный код, отправленный на ваш номер.",
+      "next": "Далее",
+      "resendCode": "Повторно отправить код",
+      "click": "нажмите",
+      "back": "Назад"
+    },
+    "completeRegistration": {
+      "accountInfo": "Информация об аккаунте",
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "clinic": "Клиника",
+      "password": "Пароль",
+      "confirmPassword": "Подтвердить Пароль",
+      "complete": "Завершить",
+      "agreeTerms": "Регистрируясь, я соглашаюсь с условиями и публичной офертой. Я согласен с условиями."
+    },
+    "auth": "Ваши пациенты всегда под рукой, а не на бумаге!",
+    "forgetPassword": {
+      "resetPassword": "Сбросить пароль",
+      "next": "Далее",
+      "back": "Назад"
+    },
+    "addPatient": {
+      "personalInfo": "Личная информация",
+      "name": "Имя",
+      "surname": "Фамилия",
+      "fathersName": "Имя Отца",
+      "phoneNumberNotAvailable": "Номер телефона недоступен",
+      "birthday": "Дата рождения",
+      "gender": "Пол",
+      "select": "Выбрать",
+      "male": "Мужской",
+      "female": "Женский",
+      "address": "Адрес",
+      "email": "Электронная почта",
+      "insurance": "Страхование",
+      "doctorReferral": "Направление от врача",
+      "save": "Сохранить",
+      "makeAppointment": "Назначить встречу"
+    },
+    "newCards": {
+      "newPatient": "Новый Пациент",
+      "newTreatment": "Новое Лечение",
+      "newAppointment": "Новая Встреча"
+    },
+    "generalStatistics": {
+      "header": "Общая статистика",
+      "appointments": "Встречи",
+      "treatments": "Лечения",
+      "patients": "Пациенты"
+    },
+    "navbar": {
+      "home": "Домой",
+      "patients": "Пациенты",
+      "calendar": "Календарь",
+      "treatments": "Лечения",
+      "appointments": "Встречи",
+      "statistics": "Статистика",
+      "profile": "Профиль",
+      "logout": "Выйти"
+    },
+    "statisticButtonGroup": {
+      "monthly": "Ежемесячно",
+      "allTime": "За всё время"
+    },
+    "statisticGeneralStatistics": {
+      "header": "Общая статистика",
+      "appointments": "Встречи",
+      "treatments": "Лечения",
+      "patients": "Пациенты"
+    },
+    "patientsComeFrom": {
+      "header": "Пациенты приходят из",
+      "socialMedia": "Социальные сети",
+      "doctorReferral": "Направление от врача",
+      "clinicReferral": "Направление от клиники",
+      "personal": "Личное"
+    },
+    "patients": {
+      "header": "Пациенты",
+      "newPatient": "Новый Пациент",
+      "fullName": "Полное Имя",
+      "phone": "Телефон",
+      "gender": "Пол",
+      "age": "Возраст",
+      "action": "Действие",
+      "male": "Мужской",
+      "female": "Женский"
+    },
+    "todayAppointments": {
+      "header": "Сегодняшние встречи",
+      "noData": "Нет встреч на сегодня",
+      "statuses": {
+        "finished": "Завершено",
+        "pending": "Ожидается",
+        "cancelled": "Отменено"
+      }
+    },
+    "homeVideo": {
+      "video": "Видео",
+      "description": "Узнайте, как использовать Dockpoint"
+    },
+    "patientSelect": "Поиск пациента",
+    "addTreatment": {
+      "header": "Информация о лечении",
+      "patientLabel": "Пациент",
+      "serviceLabel": "Услуга и Процедура",
+      "diagnosisLabel": "Диагноз",
+      "medicinesLabel": "Лекарства",
+      "examinationQuestionnaire": "Анкета обследования",
+      "documentsLabel": "Документы",
+      "uploadDocument": "Загрузить документ",
+      "saveButton": "Сохранить",
+      "nextCheckupButton": "Следующее обследование",
+      "sendButton": "Отправить",
+      "errors": {
+        "patientRequired": "Пациент обязателен",
+        "serviceRequired": "Услуга и Процедура обязательны",
+        "diagnosisRequired": "Требуется как минимум один диагноз",
+        "medicineRequired": "Требуется как минимум одно лекарство"
+      }
+    },
+    "diagnoseSelect": {
+      "placeholder": "Поиск диагноза",
+      "noOptionsMessage": {
+        "default": "Нет вариантов",
+        "withInput": "Нет вариантов, нажмите Enter, чтобы добавить"
+      }
+    },
+    "serviceProcedureSelect": "Поиск услуги или процедуры",
+    "medicineSelect": "Поиск лекарств",
+    "filterDrawer": {
+      "header": "Фильтр Лечения",
+      "applyFilterButton": "Применить Фильтр",
+      "cancelButton": "Отмена"
+    },
+    "treatments": {
+      "header": "Лечения",
+      "newTreatmentButton": "+ Новое Лечение",
+      "tableHeaders": {
+        "patient": "Пациент",
+        "date": "Дата",
+        "service": "Услуга и Процедура",
+        "diagnosis": "Диагноз",
+        "action": "Действие"
+      }
+    },
+    "showTreatment": {
+      "header": "Информация о рецепте",
+      "patientNameLabel": "Имя пациента",
+      "serviceLabel": "Услуга",
+      "diagnosisLabel": "Диагноз",
+      "medicinesLabel": "Лекарства",
+      "treatmentFormsLabel": "Формы лечения",
+      "documentsLabel": "Документы",
+      "documentLinkText": "документ",
+      "printButton": "Печать"
+    },
+    "newAppointment": {
+      "title": "Новая встреча",
+      "patientLabel": "Пациент",
+      "serviceLabel": "Услуга",
+      "hospitalLabel": "Больница",
+      "dateLabel": "Дата",
+      "timeLabel": "Время",
+      "notSelected": "Не выбрано",
+      "appealLabel": "Обращение",
+      "socialMedia": "Социальные сети",
+      "doctorReferral": "Направление от врача",
+      "clinicReferral": "Направление от клиники",
+      "personal": "Отдел",
+      "addButton": "Добавить",
+      "errors": {
+        "patientRequired": "Пациент обязателен",
+        "serviceRequired": "Услуга и Процедура обязательны",
+        "hospitalRequired": "Требуется больница",
+        "dateRequired": "Требуемая дата",
+        "timeRequired": "Необходимое время",
+        "appealRequired": "Требуется апелляция"
+      }
+    },
+    "editAppointment": {
+      "title": "Редактировать встречу",
+      "hospitalLabel": "Больница",
+      "timeLabel": "Время",
+      "notSelected": "Не выбрано",
+      "appealLabel": "Обращение",
+      "socialMedia": "Социальные сети",
+      "doctorReferral": "Həkim göndərişi",
+      "clinicReferral": "Направление от клиники",
+      "personal": "Отдел",
+      "status": "Положение дел",
+      "finished": "Завершено",
+      "pending": "Ожидается",
+      "cancelled": "Отменено",
+      "updateButton": "Редактировать",
+      "deleteButton": "Удалить"
+    },
+    "appointments": {
+      "header": "Встречи",
+      "addAppointmentButton": "+ Добавить Встречу",
+      "fullName": "Полное Имя",
+      "phone": "Телефон",
+      "service": "Услуга и Процедура",
+      "date": "Дата",
+      "time": "Время",
+      "hospital": "Больница",
+      "status": "Статус",
+      "action": "Действие",
+      "statuses": {
+        "pending": "Ожидается",
+        "finished": "Завершено",
+        "cancelled": "Отменено"
+      }
+    },
+    "profileInfo": {
+      "hospitalLabel": "Больница",
+      "emailLabel": "Электронная почта",
+      "specializationLabel": "Специализация",
+      "phoneLabel": "Телефон",
+      "workPhoneLabel": "Рабочий Телефон",
+      "empty": "пусто"
+    },
+    "appointmentOptions": {
+      "smsSendingLabel": "Отправка SMS о встрече",
+      "immediateOption": "Немедленно",
+      "oneDayBeforeOption": "За день до",
+      "durationLabel": "Длительность Встречи"
+    },
+    "treatmentOptions": {
+      "treatmentFormTitle": "Форма Лечения",
+      "customServicesTitle": "Пользовательские Услуги",
+      "customDiagnosesTitle": "Пользовательские Диагнозы",
+      "medicinesTitle": "Лекарства"
+    },
+    "editProfile": {
+      "header": "Личная информация",
+      "fullNameLabel": "Полное Имя",
+      "emailLabel": "Электронная почта",
+      "changePasswordButton": "Изменить пароль",
+      "workPhoneLabel": "Рабочий Телефон",
+      "hospitalLabel": "Больница",
+      "specializationLabel": "Специализация",
+      "uploadPhotoButton": "Загрузить Фото Профиля",
+      "saveButton": "Сохранить"
+    },
+    "changePassword": {
+      "header": "Изменить Пароль",
+      "currentPasswordLabel": "Текущий Пароль",
+      "newPasswordLabel": "Новый Пароль",
+      "newPasswordConfirmLabel": "Подтверждение Нового Пароля",
+      "saveButton": "Сохранить",
+      "successMessage": "Пароль успешно изменен!",
+      "errorMessage": {
+        "passwordMismatch": "Новый пароль и подтверждение не совпадают!",
+        "passwordLength": "Пароль должен быть не менее 6 символов!"
+      }
+    }
+  }
+}

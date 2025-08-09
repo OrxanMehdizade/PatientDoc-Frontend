@@ -1,0 +1,7 @@
+.auth-header-container {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 20px;
+  align-items: center;
+}

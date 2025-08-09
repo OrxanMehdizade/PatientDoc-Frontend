@@ -1,0 +1,22 @@
+.big-blob,
+.small-blob {
+  position: absolute;
+
+  background: linear-gradient(
+    180deg,
+    rgba(47, 184, 255, 0.42) 31.77%,
+    #5c9df1 100%
+  );
+  mix-blend-mode: color-dodge;
+  transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
+}
+
+.big-blob {
+  width: 300px;
+  height: 300px;
+}
+
+.small-blob {
+  width: 150px;
+  height: 150px;
+}

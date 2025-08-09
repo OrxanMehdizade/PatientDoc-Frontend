@@ -1,0 +1,29 @@
+.user-statistics-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin: 10px 20px;
+  gap: 30px;
+}
+
+.statistics-button-group {
+  width: fit-content;
+  padding: 10px;
+}
+
+.statistics-general-statisics {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.statistics-patient-come-from {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .user-statistics-container {
+    height: 89vh;
+  }
+}

@@ -1,0 +1,13 @@
+.edit-appointment-modal {
+    width: 30vw;
+}
+
+.edit-appointment-modal {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .edit-appointment-modal {
+    width: 70vw;
+  }
+}

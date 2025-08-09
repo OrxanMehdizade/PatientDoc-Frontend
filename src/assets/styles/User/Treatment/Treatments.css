@@ -1,0 +1,32 @@
+.user-treatment-container {
+  margin: 20px;
+  padding: 10px 20px 20px;
+}
+
+.user-treatment-header {
+  display: flex;
+  justify-content: space-between;
+  & h2 {
+    margin: 0;
+  }
+  & div {
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.user-treatment-content {
+  flex: 1;
+}
+
+.user-treatment-row:hover {
+  cursor: pointer;
+  background-color: #ecf0ff;
+}
+
+@media (max-width: 768px) {
+  .user-treatment-content .deactive {
+    display: none;
+  }
+}

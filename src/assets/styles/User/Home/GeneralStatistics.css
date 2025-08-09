@@ -1,0 +1,44 @@
+.home-general-statistics-header {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.home-general-statistics-body {
+  margin: 20px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+.home-general-statistics-body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.home-general-statistics-middle-div {
+  padding: 0 20px;
+  border-left: 2px solid #bdbdbd;
+  border-right: 2px solid #bdbdbd;
+}
+
+@media (max-width: 768px) {
+  .home-general-statistics-middle-div {
+    padding: 0;
+    border: none;
+  }
+
+  .home-general-statistics-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.3rem;
+  }
+}

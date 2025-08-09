@@ -1,0 +1,20 @@
+.new-appointment-modal {
+  width: 30vw;
+}
+.new-appointment-modal {
+  max-width: 100%;
+  & h2 {
+    margin: 0;
+  }
+}
+
+.new-appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .new-appointment-modal {
+    width: 70vw;
+  }
+}
